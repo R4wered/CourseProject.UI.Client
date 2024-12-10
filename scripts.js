@@ -2,7 +2,7 @@ const charts = {};
 
 const THRESHOLDS = {
     temperature: 150, // Поріг для InnerTemperature
-    filling: 75,      // Поріг для FillingLevel
+    filling: 100,      // Поріг для FillingLevel
     humidity: 60,     // Поріг для InnerHumidity
     ph: 12            // Поріг для InnerpH
 };
