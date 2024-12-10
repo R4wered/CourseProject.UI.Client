@@ -4,7 +4,7 @@ const THRESHOLDS = {
     temperature: 150, // Поріг для InnerTemperature
     filling: 100,      // Поріг для FillingLevel
     humidity: 60,     // Поріг для InnerHumidity
-    ph: 12            // Поріг для InnerpH
+    ph: 10            // Поріг для InnerpH
 };
 
 const connection = new signalR.HubConnectionBuilder()
